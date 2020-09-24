@@ -1,16 +1,8 @@
 function generateMarkdown(response){
-let licenseText = "";
-if (response.license === "MIT"){
-    licenseText = "This application is licensed under the MIT license.."
-} else if  (response.license === "Apache"){
-    licenseText = "This application is licensed under the Apache license.."
-} else if  (response.license === "GNU"){
-    licenseText = "This application is licensed under the GNU license.."
-} else if (response.license === "Boost Software"){
-    licenseText = "This application is licensed under the Boost Software license.."
-}
     return `
+
 # ${response.title}
+![](https://img.shields.io/static/v1?label=${response.license}&message=${response.gitHub}&color=blueviolet)
 
 ## Description
 ${response.description}

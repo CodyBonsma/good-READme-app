@@ -57,10 +57,10 @@ inquirer.prompt([
     },
 
 ]).then(function(response){
-console.log(response);
+// console.log(response);
 var markdown = generateMarkdown(response);
 
-fs.writeFile("goodReadme.md", markdown, (err) =>{
+fs.writeFile("GOODREADME.md", markdown, (err) =>{
 if (err) throw err
 console.log("Successfully wrote a file!");
 })
