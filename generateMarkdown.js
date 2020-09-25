@@ -1,4 +1,5 @@
 function generateMarkdown(response){
+    // build out the bones for the readme 
     return `
 
 # ${response.title}
@@ -36,4 +37,5 @@ ${response.test}
 - [Email](${response.email})
 `
 }
+// export the file for index.js to use 
 module.exports = generateMarkdown; 

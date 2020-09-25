@@ -1,13 +1,9 @@
-// download packages (inquirer, fs)
 
-// capture user input using inquirer
-
-// create a readme file that populates the captured input 
-
+// get the needed packages/modules/pages
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./generateMarkdown");
-
+// grab the users input through command-line prompts
 inquirer.prompt([
     {
         type: "input",
@@ -58,8 +54,9 @@ inquirer.prompt([
 
 ]).then(function(response){
 // console.log(response);
+//link the generateMarkdown file with index.js
 var markdown = generateMarkdown(response);
-
+// writeFile to generate the README
 fs.writeFile("GOODREADME.md", markdown, (err) =>{
 if (err) throw err
 console.log("Successfully wrote a file!");
