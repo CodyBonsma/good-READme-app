@@ -1,10 +1,10 @@
 
 
-# Testin
-![Badge](https://img.shields.io/static/v1?label=Apache&message=CodyBonsma&color=blueviolet)
+# Practice title for readme
+![](https://img.shields.io/static/v1?label=Apache&message=CodyBonsma&color=blueviolet)
 
 ## Description
-I cannot describe this for you 
+practice in generatin a dynamic readme through the command line
 
 ## Table of Contents
 * [Description](#Description)
@@ -16,20 +16,20 @@ I cannot describe this for you
 * [Questions](#Questions)
 
 ## Installation
-Just don't 
+Please see GitHub repo
 
 ## Usage
-For class
+To dynamically create a readme 
 
 ## ILicense
 Apache
 
 ## Contributing
-Finish it for me
+Please add additional functionality for better use
 
 ## Testing
-Cannot
+Download through GitHub and run in your command line
 
 ## Questions
 - [GitHub](https://github.com/CodyBonsma)
-- [Email](codybonsma@gmail.com)
+- [Email](testing@gmail.com)

@@ -32,7 +32,7 @@ inquirer.prompt([
     {
         type: "list",
         name: "license",
-        message: "What is the title of your project?",
+        message: "Please select one of the following licenses",
         choices: ["MIT", "Apache", "GNU","Boost Software"]
     },
     {
